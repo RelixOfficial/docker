@@ -107,7 +107,7 @@ RUN tar -xzf /tmp/Python-${PYTHON_VERSION}.tgz && \
 RUN npm install --global npm@8.x.x typescript ts-node @types/node
 
 # ====== pnpm ======
-RUN npm install -g corepack && corepack enable && corepack prepare pnpm@latest --activate
+# RUN npm install -g corepack && corepack enable && corepack prepare pnpm@latest --activate
 
 # Akses container user
 RUN chown -R container:container /home/container

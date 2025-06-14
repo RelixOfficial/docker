@@ -13,8 +13,8 @@ ARG PHP_VERSION=8.2.20
 ARG PERL_VERSION=5.38.4
 
 # Install dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    bash \
+RUN apt-get update && apt-get install -y \
+    curl \
     curl \
     wget \
     git \

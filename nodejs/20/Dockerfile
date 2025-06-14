@@ -15,7 +15,6 @@ ARG PERL_VERSION=5.38.4
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     curl \
-    curl \
     wget \
     git \
     unzip \

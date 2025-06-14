@@ -1,4 +1,4 @@
-FROM --platform=$TARGETOS/$TARGETARCH node:18-bookworm-slim
+FROM  --platform=$TARGETOS/$TARGETARCH node:18-bookworm-slim
 
 LABEL author="RelixOfficial" maintainer="dzakyadis9@gmail.com" description="A Docker image for running Node.js applications."
 

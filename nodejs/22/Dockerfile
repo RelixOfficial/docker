@@ -57,7 +57,6 @@ RUN apt-get update && apt-get install -y \
     tini \
     libx11-dev \
     libexpat1-dev \
- && ln -s /bin/bash /usr/bin/bash \
  && rm -rf /var/lib/apt/lists/*
 
 # ====== CACHING FILES ======
